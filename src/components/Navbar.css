@@ -1,0 +1,141 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px lightgray;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* margin-top: 3px; */
+}
+
+.navbar .logo img{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+}
+
+.navbar .search {
+    flex-grow: 1 !important;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+.navbar li .search-bar {
+    width: 100%;
+    /* height: 45px !important; */
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 40px;
+    background: lightgray;
+}
+
+.navbar li .search-bar:focus {
+    outline: none;
+}
+
+.navbar li .navbar-icon {
+    font-size: 25px;
+    filter: invert(40%);
+}
+
+.navbar .icon:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.navbar .icon {
+    /* width: 40px;
+    height: 40px; */
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar .profile-pic img{
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    border-radius: 50%;
+}
+
+.navbar .profile-pic {
+    width: 40px;
+    height: 40px;
+    /* padding-left: 5px; */
+    text-align: center;
+    align-items: center;
+}
+
+.navbar .profile-pic:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+/* .navbar li .bi-chevron-down {
+    font-size: 15px;
+    -webkit-text-stroke: 1px;
+} */
+
+.navbar .create {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar li {
+    font-weight: 500;
+}
+
+.navbar .home-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.navbar .down-arrow {
+    -webkit-text-stroke: 1px;
+}
+
+.navbar .down-arrow :hover {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+@media(max-width:708px) {
+    .search {
+        display: none;
+    }
+}
+
+@media(max-width:577px) {
+    .icon {
+        display: none;
+    }
+}
+
+@media(max-width:591px) {
+    .profile-pic {
+        display: none;
+    }
+}
