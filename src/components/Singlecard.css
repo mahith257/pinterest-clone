@@ -1,6 +1,8 @@
 .card-image {
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+    max-width: 236px;
+    max-height: 420px;
 }
 
 

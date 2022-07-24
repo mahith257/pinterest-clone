@@ -4,8 +4,7 @@ export default function Singlecard({ card, index }) {
   return (
     <div className='single-card'>
         <div className='single-image'>
-            {index !== 4 && <img src={card} alt = 'card' className='card-image' style={{width:'250px',height:'350px'}} />}
-            {index === 4 && <img src={card} alt = 'card' className='card-image' />}
+            <img src={card} alt = 'card' className='card-image' />
             <div className='card-overlay'>
                 <button className='save-btn'>Save</button>
                 <div className='bottom-icons'>
