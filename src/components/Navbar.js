@@ -11,7 +11,7 @@ export default function Navbar() {
                 <img src={logo} alt='pinterest logo' />
             </li>
             <li className='home-button'>Home</li>
-            <li>Today</li>
+            <li className='today-button'>Today</li>
             <li className='create'>
                 <span>Create</span>
                 <i className="bi bi-chevron-down"></i>

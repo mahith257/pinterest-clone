@@ -135,8 +135,14 @@
     }
 }
 
-@media(max-width:591px) {
+@media(max-width:626px) {
     .profile-pic {
+        display: none;
+    }
+}
+
+@media(max-width:420px) {
+    .today-button {
         display: none;
     }
 }

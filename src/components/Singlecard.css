@@ -6,8 +6,8 @@
 
 .single-card {
     /* background-color: black; */
-    height: fit-content;
-    width: fit-content;
+    /* height: fit-content;
+    width: fit-content; */
     display: flex;
     flex-direction: column;
 }
